@@ -1,3 +1,5 @@
+This optimization project is deployed here -> https://prateek3065.github.io/react-window/
+
 This is an example of a React components for efficiently rendering large lists and tabular data
 
 React window works by only rendering part of a large data set (just enough to fill the viewport). This helps address some common performance bottlenecks:

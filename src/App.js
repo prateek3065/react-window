@@ -3,7 +3,7 @@ import ReactWindowTable from "./ReactWindowTable";
 import React, { useState } from "react";
 function App() {
   const info =
-    "React window works by only rendering part of a large data set (just enough to fill the viewport.";
+    "React window works by only rendering part of a large data set (just enough to fill the viewport).";
   const [table, setTable] = useState(() => "ReactWindowTable");
   const switchTable = () => {
     setTable((previousState) => {
